@@ -1,4 +1,5 @@
 # iCalculateEverything
+![Alt text](/screenshots/Screenshot.png?raw=true "Title")
 
 ## Ein Taschenrechner... mit einer versteckten App dahinter
 
