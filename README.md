@@ -16,3 +16,18 @@ https://ferhat.tf/oldschool/projekte/AnalyseHelfer.html
 
 Leider habe ich die Idee damals nach wenigen Monaten pausiert, da mir einerseits die Kraft/Fähigkeiten gefehlt haben, und ich andererseits keine Unterstützung gefunden habe. 
 Bald will ich das aber wieder aufnehmen, das Projekt leicht umdesignen und Schritt für Schritt veröffentlichen. :)
+
+### Screen 1
+![Alt text](/screenshots/Screenshot_0.png?raw=true "screenshot")
+
+
+### Screen 2
+![Alt text](/screenshots/Screenshot_1.png?raw=true "screenshot")
+
+
+### Screen 3
+![Alt text](/screenshots/Screenshot_2.png?raw=true "screenshot")
+
+
+### Screen 4
+![Alt text](/screenshots/Screenshot_3.png?raw=true "screenshot")
