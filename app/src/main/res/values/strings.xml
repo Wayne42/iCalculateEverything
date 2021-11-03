@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">iCalculateEverything</string>
+
+    <string name="t_save">Save</string>
+    <string name="t_title">Title</string>
+    <string name="t_description">description</string>
+    <string name="t_date">date</string>
+    <string name="t_category">category</string>
+    <string name="t_additionals">additionals</string>
+    <string name="t_additionals2">additional, separated, information, ...</string>
+    <string name="t_welcome">Welcome</string>
+    <string name="t_lorem">Lorem</string>
+    <string name="t_new_entry">New Entry</string>
+    <string name="t_entry" tools:ignore="ExtraTranslation">Entry</string>
+    <string name="t_entries">Entries</string>
+    <string name="t_analysis">Analysis</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#111</color>
+    <color name="colorAccent">#49871127</color>
+
+    <color name="colorNumberButton">#49ffffff</color>
+    <color name="colorActionButton">#49871127</color>
+    <color name="colorScienceButton">#2e2e2e99</color>
+
+    <color name="colorNumberButtonText">#000000</color>
+    <color name="colorActionButtonText">#ffffff</color>
+    <color name="colorScienceButtonText">#ffffff</color>
+
+    <color name="colorTransparent">#00ffffff</color>
+
+    <color name="color02TransparentWhite">#05ffffff</color>
+    <color name="color05TransparentWhite">#10ffffff</color>
+    <color name="color10TransparentWhite">#55ffffff</color>
+    <color name="color15TransparentWhite">#88ffffff</color>
+    <color name="color30TransparentWhite">#aaffffff</color>
+    <color name="color50TransparentWhite">#ccffffff</color>
+    <color name="color80TransparentWhite">#deffffff</color>
+    <color name="color90TransparentWhite">#faffffff</color>
+
+    <color name="color05TransparentBlack">#10000000</color>
+    <color name="color10TransparentBlack">#55000000</color>
+    <color name="color50TransparentBlack">#cc000000</color>
+    <color name="color80TransparentBlack">#de000000</color>
+    <color name="color90TransparentBlack">#fa000000</color>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/UNREAL_ACTIVITY"
+    android:screenOrientation="portrait"
+    >
+
+    <ImageView
+        android:id="@+id/unrealBackground1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mesh"
+        android:translationX="100dp"
+        />
+
+    <ImageView
+        android:id="@+id/unrealBackground2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mesh2"
+        />
+
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@drawable/shadow_gradient"
+        android:elevation="4dp"
+        android:outlineProvider="background"
+        android:paddingStart="8dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="12dp"
+        android:shadowColor="@color/color10TransparentBlack"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="@string/t_welcome"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/color90TransparentWhite"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <fragment
+        android:id="@+id/unrealFragment"
+        android:name="tf.ferhat.icalculateeverything.NullFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:elevation="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerTextView"
+        tools:layout="@layout/fragment_null" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="?android:attr/buttonBarStyle"
+        android:paddingTop="4dp"
+        android:paddingBottom="0dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:background="@drawable/patch_shadow9"
+
+        >
+
+        <Button
+            android:id="@+id/MENU_FRONT_BUTTON"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rounded_top_left"
+            android:shadowColor="@color/color10TransparentBlack"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="@string/t_entries"
+            android:textAllCaps="false"
+            android:textColor="@color/color80TransparentWhite"
+            android:textSize="18dp"
+            android:layout_gravity="bottom"
+            />
+
+        <Button
+            android:id="@+id/MENU_BACK_BUTTON"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rounded_top_right"
+            android:shadowColor="@color/color10TransparentBlack"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="@string/t_analysis"
+            android:textAllCaps="false"
+            android:textColor="@color/color80TransparentWhite"
+            android:textSize="18dp"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait">
+
+
+    <ImageView
+        android:id="@+id/toDoEntryViewerBackground1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mesh3"
+        />
+
+    <TextView
+        android:id="@+id/headerAboutActivity"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@drawable/shadow_gradient"
+        android:elevation="4dp"
+        android:outlineProvider="background"
+        android:paddingStart="8dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="12dp"
+        android:shadowColor="@color/color10TransparentBlack"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="About"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/color90TransparentWhite"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerAboutActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="This is a unique life tracking App build with focus on privacy. \n\n I use it to log my behavior and phrasing without having to worry about big data. \n\n In future versions there will be integrated libraries, which help analyse the content (description and images) you, the user, provide. Those libraries may help you understand your behavior and psychology. All of that happens locally on your device. That data is not shared with anyone. Hopefully it will make some lives better. \n\n I created this app mainly for myself. It is my first app and there is still much more work to do. \n\n This app is free of charge. If you like my work and want to assist me, you can donate with the button bellow or message me via mail -> me@ferhat.tf
+"
+                android:textColor="@color/color80TransparentWhite"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/button_donate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <Button
+                android:id="@+id/button_donate"
+                style="@style/buttonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Donate"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView4"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
